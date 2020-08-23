@@ -13,6 +13,7 @@ This framework provide to format text with format like "## ##-###", where # - re
   s.source           = { :git => 'https://github.com/luximetr/AnyFormatKit.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
+  s.macos.deployment_target = '10.15'
   s.swift_version = '5.0'
 
   s.source_files = 'Source/**/*'
